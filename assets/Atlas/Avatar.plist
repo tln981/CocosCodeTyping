@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>avatar-sprite-sheet_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,0},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,375},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,250},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,125},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,0},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,375},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,250},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+			<key>avatar-sprite-sheet_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,125},{124,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{124,124}}</string>
+				<key>sourceSize</key>
+				<string>{124,124}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{512,512}</string>
+			<key>textureFileName</key>
+			<string>Avatar.png</string>
+			</dict>
+		</dict>
+</plist>
