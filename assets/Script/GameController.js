@@ -21,6 +21,7 @@ cc.Class({
         _stringResults:[String],
         _stringTypings:[String],
         editBox:cc.EditBox,
+        avatars:cc.Node,
     },
     onLoad () {
         this._timePlay=60;
@@ -28,6 +29,7 @@ cc.Class({
         this.layoutSignIn.node.active=true;
         this.layoutGame.node.active=false;
         this.layoutResult.node.active=false;
+        this.avatars.active=false;
         this._isDrawClock=false;
         this._spriteFrameAvatar=this.atlasAvatar.getSpriteFrames()[this._indexAtlas];
     },
@@ -45,6 +47,14 @@ cc.Class({
         if(this._indexAtlas<0)this._indexAtlas=this.atlasAvatar.getSpriteFrames().length-1;
         this.avatarImageNode.node.getChildByName('AvatarSprite').getComponent(cc.Sprite).spriteFrame=this.atlasAvatar.getSpriteFrames()[this._indexAtlas];
         this._spriteFrameAvatar=this.atlasAvatar.getSpriteFrames()[this._indexAtlas];
+    },
+    chooseAvatar(targetButton){
+        this._spriteFrameAvatar=targetButton.currentTarget.getChildByName("Avatar").getComponent(cc.Sprite).spriteFrame;
+        this.avatarImageNode.node.getChildByName('AvatarSprite').getComponent(cc.Sprite).spriteFrame=targetButton.currentTarget.getChildByName("Avatar").getComponent(cc.Sprite).spriteFrame;
+        this.toggleAvatars();
+    },
+    toggleAvatars(){
+        this.avatars.active= !(this.avatars.active);
     },
     starGame(){
         this.layoutSignIn.node.active=false;
@@ -94,6 +104,7 @@ cc.Class({
         this.layoutResult.node.getChildByName('UserName').getComponent(cc.Label).string=this._userName;
         this.layoutResult.node.getChildByName('WPM').getComponent(cc.Label).string=count/(this._timePlay/60)+" WPM";
     },
+    
     start () {   
     },
 
